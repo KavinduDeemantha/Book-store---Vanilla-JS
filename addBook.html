@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="nav-bar-container">
+        <div class="logo-container">
+          <img src="./assets/Buecher-coloured.png" class="logo" alt="logo" />
+          <a href="" class="heading">Book Store</a>
+        </div>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="booksPage.html">All Books</a>
+          <a href="addBook.html">Add Books</a>
+        </div>
+      </div>
+      <div class="content-containe">
+        <div class="add-book-container">
+          <h3 class="add-books">Add books from here</h3>
+          <div class="book-info-container">
+            <input
+              type="text"
+              placeholder="Name of the book"
+              name="book_name"
+              class="book-info-inputs"
+            />
+            <input
+              type="text"
+              placeholder="Author"
+              name="book_author"
+              class="book-info-inputs"
+            />
+            <textarea
+              name="description"
+              id=""
+              placeholder="Description"
+              class="book-info-inputs"
+            ></textarea>
+            <input type="number" placeholder="Price" class="book-info-inputs" />
+          </div>
+          <button class="add-book-btn">Add book</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
